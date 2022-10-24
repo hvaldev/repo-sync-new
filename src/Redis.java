@@ -102,7 +102,7 @@ public class Redis {
         int idle = jedisPoolBranchOne.getNumIdle();
         int total = active + idle;
         String log = String.format(
-                "JedisPoolBranchOne"
+                "JedisPoolBranchOne Mod"
                
         );
 
