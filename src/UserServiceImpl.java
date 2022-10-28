@@ -24,7 +24,7 @@ public class UserServiceImpl implements UserService
         String password = user.getPassword();
         String encodedPassword = passwordEncoder.encode(password);
 
-        user.setPassword(encodedPassword);//Mod
+        user.setPassword(encodedPassword);//Modif
 
         return userRepository.save(user);
     }
