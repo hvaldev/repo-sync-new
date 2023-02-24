@@ -71,7 +71,7 @@ public class Redis {
         return config;
     }
 
-    // MODIFIED BY ME ALSO
+    // MODIFIED BY ME ALSO O
     public static String getPoolCurrentUsage()
     {
         JedisPool jedisPool = getPoolInstance();
